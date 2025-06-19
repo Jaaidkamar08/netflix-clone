@@ -7,7 +7,7 @@ This project replicates the Netflix aesthetic while enhancing the user experienc
 
 ## 🌐 Live Demo
 
-🔗 [Click here to view the live site]([![Netlify Status]([![Netlify Status](https://api.netlify.com/api/v1/badges/08778ef3-80de-4b55-af88-701e671144ab/deploy-status)](https://app.netlify.com/projects/spectacular-sherbet-8a5584/deploys))
+🔗 [Click here to view the live site]([![Netlify Status]([![Netlify Status](https://api.netlify.com/api/v1/badges/2ed44ac1-1c05-420e-a0c9-208cc3c08812/deploy-status)](https://app.netlify.com/projects/stirring-frangipane-7a4233/deploys))
 
 ---
 

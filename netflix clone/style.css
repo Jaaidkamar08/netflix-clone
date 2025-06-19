@@ -1,0 +1,220 @@
+body {
+  background: #fff;
+  color: #111;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #111;
+  color: #fff;
+}
+
+body.dark .navbar,
+body.dark .stat-box,
+body.dark .scroll-section,
+body.dark .chart-section,
+body.dark .features,
+body.dark .carousel {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+body .navbar,
+.scroll-section,
+.chart-section,
+.features,
+.carousel {
+  background-color: #fff;
+  color: #111;
+}
+
+body.dark .stat-box h3 {
+  color: red;
+}
+
+.stat-box h3 {
+  color: #e50914;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body.dark {
+  background-color: #111;
+  color: #fff;
+}
+
+#loader {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  z-index: 9999;
+}
+
+#loader video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.carousel, .features {
+  padding: 40px 20px;
+}
+
+.carousel video,
+.features video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.scroll-section {
+  padding: 60px 20px;
+  background: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.popup-item {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+  font-size: 1.5rem;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.popup-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.ripple-btn {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.ripple-btn span {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+  background: white;
+  opacity: 0.6;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.stats-section {
+  background: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.stat-box {
+  background: #222;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: scale(1.05);
+}
+
+.stat-box h3 {
+  font-size: 2.5rem;
+  color: red;
+}
+
+.stat-box p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+.chart-section {
+  background: #000;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.chart-section canvas {
+  max-width: 600px;
+  width: 100%;
+  margin-top: 30px;
+}

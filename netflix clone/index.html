@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css"/>
+  <head>
+  ...
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <video src="assets/loader.mp4" autoplay muted loop></video>
+  </div>
+
+  <!-- Main content -->
+  <main>
+    <!-- Background video -->
+    <video autoplay muted loop id="bg-video">
+      <source src="assets/parallax animation.mp4" type="video/mp4">
+    </video>
+
+    <!-- Scroll Animation Section -->
+<section class="scroll-section">
+  <div class="popup-item">Experience amazing shows</div>
+  <div class="popup-item">Binge-watch latest movies</div>
+  <div class="popup-item">Only on Netflix Clone</div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section">
+  <h2>Platform Stats</h2>
+  <div class="stats-container">
+    <div class="stat-box">
+      <h3 class="count" data-target="1200000">0</h3>
+      <p>Users Worldwide</p>
+    </div>
+    <div class="stat-box">
+      <h3 class="count" data-target="15000">0</h3>
+      <p>Movies & Shows</p>
+    </div>
+    <div class="stat-box">
+      <h3 class="count" data-target="48000000">0</h3>
+      <p>Hours Watched</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chart Section -->
+<section class="chart-section">
+  <h2>Viewer Interest by Genre</h2>
+  <canvas id="genreChart" width="300" height="200"></canvas>
+</section>
+
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1>Netflix Clone</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="#features">Features</a></li>
+      </ul>
+      <button id="themeToggle">🌙</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <h2>Unlimited Movies, TV Shows, and More</h2>
+      <p>Watch anywhere. Cancel anytime.</p>
+    </section>
+
+    <section class="hero" id="home">
+  <h2>Unlimited Movies, TV Shows, and More</h2>
+  <p>Watch anywhere. Cancel anytime.</p>
+  <button class="ripple-btn">Join Now</button>
+</section>
+
+
+    <!-- Carousel Section -->
+    <section class="carousel" id="trending">
+      <video autoplay muted loop>
+        <source src="assets/carousel switch.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+      <video autoplay muted loop>
+        <source src="assets/features-services.mp4" type="video/mp4">
+      </video>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

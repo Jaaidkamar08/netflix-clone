@@ -41,8 +41,52 @@ The project includes all the required and additional features for submission:
 
 ## 🧠 How to Use
 
+
+
 1. Clone the repository:
    ```bash
    git clone YOUR-GITHUB-REPO-LINK-HERE
    https://github.com/Jaaidkamar08/netflix-clone
    cd netflix-clone
+
+2.Run it locally
+Open index.html in your browser
+
+
+
+---
+
+## 🤖 AI Tools Used
+
+As per competition rules, the following AI tools were used responsibly during the development of this project:
+
+- **ChatGPT (OpenAI)** –  
+  Used for:
+  - Planning section layout
+  - Writing responsive CSS
+  - Creating animations (JS logic + Intersection Observer)
+  - Generating README content and structuring
+
+- **GitHub Copilot** –  
+  Used for:
+  - Auto-completing repetitive code in JavaScript and CSS
+  - Minor syntax corrections during development
+
+---
+
+📂 Folder Structure
+netflix-clone/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│ ├── loader.mp4
+│ ├── homepage.mp4
+│ ├── carousel switch.mp4
+│ ├── features-services.mp4
+│ └── (more provided assets)
+
+
+✍️ Author
+Made with ❤️ by [Md Jaaid Kamar]
+🔗 GitHub Repositor - https://github.com/Jaaidkamar08

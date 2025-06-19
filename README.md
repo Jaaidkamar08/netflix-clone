@@ -13,7 +13,7 @@ This project replicates the Netflix aesthetic while enhancing the user experienc
 
 
 
-## ✅ Features Implemented
+## ✅ Features Implemented:
 
 The project includes all the required and additional features for submission:
 
